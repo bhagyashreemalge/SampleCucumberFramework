@@ -1,0 +1,223 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-06T09:07:29.214Z",
+        "line": 13,
+        "name": ": Select multiple items and place the order",
+        "description": "",
+        "id": "place-order-on-greenkart;:-select-multiple-items-and-place-the-order;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8302309100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on greenkart landin page",
+            "match": {
+              "location": "stepDefinition.GreenkartOrderDefinitions.user_is_on_greenkart_landin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5385170200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user searches for Beetroot in search textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beetroot",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.GreenkartOrderDefinitions.user_searches_for_in_search_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241036600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "places the item in the cart",
+            "match": {
+              "location": "stepDefinition.GreenkartOrderDefinitions.places_the_item_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1290980100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be able to place order for selected items",
+            "match": {
+              "location": "stepDefinition.GreenkartOrderDefinitions.user_should_be_able_to_place_order_for_selected_items()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-06T09:07:44.558Z",
+        "line": 14,
+        "name": ": Select multiple items and place the order",
+        "description": "",
+        "id": "place-order-on-greenkart;:-select-multiple-items-and-place-the-order;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7907208000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on greenkart landin page",
+            "match": {
+              "location": "stepDefinition.GreenkartOrderDefinitions.user_is_on_greenkart_landin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5355053600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user searches for Capsicum in search textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Capsicum",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.GreenkartOrderDefinitions.user_searches_for_in_search_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 310215200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "places the item in the cart",
+            "match": {
+              "location": "stepDefinition.GreenkartOrderDefinitions.places_the_item_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1420896600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be able to place order for selected items",
+            "match": {
+              "location": "stepDefinition.GreenkartOrderDefinitions.user_should_be_able_to_place_order_for_selected_items()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-06T09:07:59.573Z",
+        "line": 15,
+        "name": ": Select multiple items and place the order",
+        "description": "",
+        "id": "place-order-on-greenkart;:-select-multiple-items-and-place-the-order;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7520310900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on greenkart landin page",
+            "match": {
+              "location": "stepDefinition.GreenkartOrderDefinitions.user_is_on_greenkart_landin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5359093500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user searches for Potato in search textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Potato",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.GreenkartOrderDefinitions.user_searches_for_in_search_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 305072100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "places the item in the cart",
+            "match": {
+              "location": "stepDefinition.GreenkartOrderDefinitions.places_the_item_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1108580200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be able to place order for selected items",
+            "match": {
+              "location": "stepDefinition.GreenkartOrderDefinitions.user_should_be_able_to_place_order_for_selected_items()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Place order on Greenkart",
+    "description": "",
+    "id": "place-order-on-greenkart",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GreenkartOrder.feature",
+    "tags": []
+  }
+]

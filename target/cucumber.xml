@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="44.861">
+    <testcase classname="Place order on Greenkart" name=": Select multiple items and place the order" time="15.311">
+        <system-out><![CDATA[Given user is on greenkart landin page......................................passed
+When user searches for Beetroot in search textbox...........................passed
+And places the item in the cart.............................................passed
+Then user should be able to place order for selected items..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Place order on Greenkart" name=": Select multiple items and place the order 2" time="15.001">
+        <system-out><![CDATA[Given user is on greenkart landin page......................................passed
+When user searches for Capsicum in search textbox...........................passed
+And places the item in the cart.............................................passed
+Then user should be able to place order for selected items..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Place order on Greenkart" name=": Select multiple items and place the order 3" time="14.302">
+        <system-out><![CDATA[Given user is on greenkart landin page......................................passed
+When user searches for Potato in search textbox.............................passed
+And places the item in the cart.............................................passed
+Then user should be able to place order for selected items..................passed
+]]></system-out>
+    </testcase>
+</testsuite>
